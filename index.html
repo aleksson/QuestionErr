@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>QuestionErr</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="orange lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">StackQuestions</a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text"> QuestionErr </h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Find code related Errors & Questions on StackOverflow</h5>
+      </div>
+
+      <div class="row">
+        <form class="col s12">
+
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input placeholder="Paste or type here" id="q" type="text" class="validate">
+              <label for="question">Question</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <select>
+                <option value="0" selected>General Question</option>
+                <option value="js">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="c#">C#</option>
+              </select>
+              <label>Choose Language</label>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <div class="row center">
+        <button class="btn-large waves-effect waves-light orange">Search
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="#!">a.Cincarevic</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
+</html>
